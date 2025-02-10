@@ -1,0 +1,19 @@
+---
+title: Projet robotique
+#Val: #e111ef
+#Seb: #bb2222
+#Arthur: #bb9d22
+---
+
+section All project
+group software
+2025-02/2025-03: Driver #Seb
+- [x] libraire
+- [] code
+- []
+
+2025-02/2025-03: Suiveur de ligne #Val
+endgroup
+
+group hardware
+2025-03/2025-05: Montage #Arthur
