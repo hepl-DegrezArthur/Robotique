@@ -1,18 +1,36 @@
 ---
 title: Projet robotique
+#All: #15d4e0
 #Val: #e111ef
 #Seb: #bb2222
 #Arthur: #bb9d22
 ---
 
-section All project
-group software
-2025-02/2025-03: Driver #Seb
-- [x] libraire
-- [] code
-- []
+section Projet robotique
+2025-02-11/2025-02-13: Gantt #All
 
-2025-02/2025-03: Suiveur de ligne #Val
+2025-02-11/2025-02-17: Schéma bloc #All
+- [] Recherche documentation
+- [] Choix des pins
+- [] Réalisation du schéma
+
+group software
+2025-02-20/2025-03: Driver
+- [] code
+- [] Test
+
+2025-02-20/2025-03: Suiveur de ligne
+- [] code
+- [] Test
+
+2025-02-20/2025-03: Capteur d'obstacle
+- [] code
+- [] Test
+
+2025-02-20/2025-03: Carte MP3 + haut parleur
+- [] code
+- [] Test
+
 endgroup
 
 group hardware
