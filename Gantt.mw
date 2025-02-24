@@ -7,32 +7,74 @@ title: Projet robotique
 ---
 
 section Projet robotique
-2025-02-11/2025-02-13: Gantt #All
-- [] Réalisation du Gantt
-
+group admin #All
 2025-02-11/2025-02-17: Schéma bloc #All
-- [] Recherche documentation
-- [] Choix des pins
-- [] Réalisation du schéma
+- [x] Recherche documentations
+- [x] Lister pins
+- [x] Choix des pins
+- [x] Réalisation du schéma
 
-group software
-2025-02-20/2025-03: Driver
-- [] code
-- [] Test
-
-2025-02-20/2025-03: Suiveur de ligne
-- [] code
-- [] Test
-
-2025-02-20/2025-03: Capteur d'obstacle
-- [] code
-- [] Test
-
-2025-02-20/2025-03: Carte MP3 + haut parleur
-- [] code
-- [] Test
+2025-02-17/2025-02-24: Gantt #All
+- [x] Réalisation du Gantt
 
 endgroup
 
+group software
+group Driver #Arthur 
+2025-02-17/2025-03-10: Code #Arthur 
+- [] 
+- [] Librairie
+
+2025-03-10/2025-03-16: Test #Arthur 
+- [] Validation
+
+endgroup
+
+group Ultrason #Arthur
+2025-02-17/2025-03-10: Code #Arthur 
+- [] 
+- [] Librairie
+
+2025-03-10/2025-03-16: Test #Arthur 
+- [] Validation
+
+endgroup
+
+group Suiveur de ligne #Val
+2025-02-17/2025-03-10: Code #Val
+- [] 
+- [] Librairie
+
+2025-03-10/2025-03-16: Test #Val
+- [] Validation
+
+endgroup
+
+group Carte MP3 #Seb
+2025-02-17/2025-03-10: Code #Seb
+- [] Lecture DataSheet
+- [] Librairie
+
+2025-03-10/2025-03-16: Test #Seb
+- [] Validation
+
+endgroup
+2025-05-12/2025-05-17: Validation code combiné #All
+
+endgroup
 group hardware
-2025-03/2025-05: Montage #Arthur
+2025-02-17/2025-02-17: Soudure #Arthur
+- []
+
+2025-03-10/2025-03-16: 1er montage #All
+- []
+
+2025-05-12/2025-05-17: Dernier montage #All
+- []
+endgroup
+
+group Impression 3D
+2025-02-17/2025-03-10: Chassis #Val
+- []
+
+endgroup
