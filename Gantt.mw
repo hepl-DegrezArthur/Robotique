@@ -11,26 +11,32 @@ section Projet robotique
 - [] Réalisation du Gantt
 
 2025-02-11/2025-02-17: Schéma bloc #All
-- [] Recherche documentation
-- [] Choix des pins
-- [] Réalisation du schéma
+- [X] Recherche documentation
+- [X] Choix des pins
+- [X] Réalisation du schéma
 
-group software
-2025-02-20/2025-03: Driver
+group Conception #All
+2025-02-20/2025-03: Driver #Arthur
 - [] code
 - [] Test
 
-2025-02-20/2025-03: Suiveur de ligne
-- [] code
-- [] Test
+    group suiveur de ligne #Val
+        2025-02-20/2025-03: Suiveur de ligne #Val
+        - [] Conception 3D prototype support
+        - [] Recherche fonctionnement suiveur de ligne
+        - [] Lecture d'un capteur
+        - [] Lecture des trois capteurs
+        - [] Ajustement du prototype
+        - [] Test        
+    endgroup
 
-2025-02-20/2025-03: Capteur d'obstacle
-- [] code
-- [] Test
+    2025-02-20/2025-03: Capteur d'obstacle
+    - [] code
+    - [] Test
 
-2025-02-20/2025-03: Carte MP3 + haut parleur
-- [] code
-- [] Test
+    2025-02-20/2025-03: Carte MP3 + haut parleur #Seb
+    - [] code
+    - [] Test
 
 endgroup
 
