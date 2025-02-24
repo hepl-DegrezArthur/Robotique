@@ -8,7 +8,7 @@ title: Projet robotique
 
 section Projet robotique
 2025-02-11/2025-02-13: Gantt #All
-- [] Réalisation du Gantt
+- [x] Réalisation du Gantt
 
 2025-02-11/2025-02-17: Schéma bloc #All
 - [X] Recherche documentation
@@ -17,13 +17,15 @@ section Projet robotique
 
 group Conception #All
     group 2025-02-20/2025-03: Driver #Arthur
-        2025-02-20/2025-03: Driver #Arthur
-        - [] code
+        2025-02-20/2025-03-10: Driver #Arthur
+        - [] Prise en main
+        - [] Création de fonctions
+        - [] Gestion fonctions avec données extérieurs
         - [] Test
     endgroup
 
     group suiveur de ligne #Val
-        2025-02-20/2025-03: Suiveur de ligne #Val
+        2025-02-20/2025-03-10: Suiveur de ligne #Val
         - [] Conception 3D prototype support
         - [] Recherche fonctionnement suiveur de ligne
         - [] Lecture d'un capteur
@@ -33,18 +35,36 @@ group Conception #All
     endgroup
 
     group Capteur d'obstacle #Arthur
-        2025-02-20/2025-03: Capteur d'obstacle #Arthur
-        - [] code
+        2025-02-20/2025-03-10: Capteur d'obstacle #Arthur
+        - [] Prise en main
+        - [] Création de fonctions
+        - [] Gestion fonctions avec données extérieurs
         - [] Test
     endgroup
 
     group Carte MP3 + haut parleur #Seb
-        2025-02-20/2025-03: Carte MP3 + haut parleur #Seb
-        - [] code
-        - [] Test
+        2025-02-20/2025-03-10: Carte MP3 + haut parleur #Seb
+        - [] Lecture datasheet
+        - [] Recherche librairie existante
+        - [] Test de fonction
+        - [] Code
+    endgroup
+
+    group Modèle 3D bras #All
+        2025-03/2025-04: Modèle 3D bras #All
+        - []
     endgroup
 
 endgroup
 
-group hardware
-2025-03/2025-05: Montage #Arthur
+group Assemblage #All
+    2025-03-10/2025-03-24: Ajout Suiveur de ligne + Driver #All
+    - []
+    2025-03-24/2025-04-07: Ajout capteur obstacle #All
+    - []
+    2025-04-07/2025-04-14: Ajout servo moteur + bras #All
+    - [] 
+    2025-04-14/2025-04-21: Ajout module MP3 #All
+    - [] 
+
+endgroup
