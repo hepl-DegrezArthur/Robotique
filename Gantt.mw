@@ -9,44 +9,26 @@ title: Projet robotique
 section Projet robotique
 group admin #All
 2025-02-11/2025-02-17: Schéma bloc #All
-- [x] Recherche documentations
-- [x] Lister pins
-- [x] Choix des pins
-- [x] Réalisation du schéma
-
-2025-02-17/2025-02-24: Gantt #All
-- [x] Réalisation du Gantt
-
-endgroup
+- [] Recherche documentation
+- [] Choix des pins
+- [] Réalisation du schéma
 
 group software
-group Driver #Arthur 
-2025-02-17/2025-03-10: Code #Arthur 
-- [] 
-- [] Librairie
+2025-02-20/2025-03: Driver
+- [] code
+- [] Test
 
-2025-03-10/2025-03-16: Test #Arthur 
-- [] Validation
+2025-02-20/2025-03: Suiveur de ligne
+- [] code
+- [] Test
 
-endgroup
+2025-02-20/2025-03: Capteur d'obstacle
+- [] code
+- [] Test
 
-group Ultrason #Arthur
-2025-02-17/2025-03-10: Code #Arthur 
-- [] 
-- [] Librairie
-
-2025-03-10/2025-03-16: Test #Arthur 
-- [] Validation
-
-endgroup
-
-group Suiveur de ligne #Val
-2025-02-17/2025-03-10: Code #Val
-- [] 
-- [] Librairie
-
-2025-03-10/2025-03-16: Test #Val
-- [] Validation
+2025-02-20/2025-03: Carte MP3 + haut parleur
+- [] code
+- [] Test
 
 endgroup
 
