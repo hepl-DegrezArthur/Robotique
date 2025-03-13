@@ -26,7 +26,7 @@ group Conception #All
 
     group suiveur de ligne #Val
         2025-02-20/2025-03-10: Suiveur de ligne #Val
-        - [] Conception 3D prototype support
+        - [X] Conception 3D prototype support
         - [] Recherche fonctionnement suiveur de ligne
         - [] Lecture d'un capteur
         - [] Lecture des trois capteurs
