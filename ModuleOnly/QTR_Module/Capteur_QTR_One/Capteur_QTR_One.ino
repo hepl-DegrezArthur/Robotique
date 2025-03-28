@@ -10,8 +10,8 @@ void setup()
   Serial.begin(9600);
   // configure the sensors
   qtr.setTypeAnalog();
-  qtr.setSensorPins((const uint8_t[]){A0, A1, A2}, SensorCount);
-  qtr.setEmitterPin(13);
+  qtr.setSensorPins((const uint8_t[]){A12, A10, A8}, SensorCount);
+  qtr.setEmitterPin(65);
 
   delay(500);
   pinMode(LED_BUILTIN, OUTPUT);
@@ -55,7 +55,7 @@ void setup()
 void loop()
 {
   // read calibrated sensor values and obtain a measure of the line position
-  // from 0 to 3000
+  // from 0 to 2000
   uint16_t position = qtr.readLineWhite(sensorValues);
 
   // print the sensor values as numbers from 0 to 1000, where 0 means maximum
