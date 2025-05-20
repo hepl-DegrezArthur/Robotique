@@ -18,53 +18,62 @@ section Projet robotique
 group Conception #All
     group 2025-02-20/2025-03: Driver #Arthur
         2025-02-20/2025-03-10: Driver #Arthur
-        - [] Prise en main
-        - [] Création de fonctions
-        - [] Gestion fonctions avec paramètres
-        - [] Test
+        - [X] Prise en main
+        - [X] Création de fonctions
+        - [X] Gestion fonctions avec paramètres
+        - [X] Test
     endgroup
 
     group suiveur de ligne #Val
         2025-02-20/2025-03-10: Suiveur de ligne #Val
         - [X] Conception 3D prototype support
-        - [] Recherche fonctionnement suiveur de ligne
-        - [] Lecture d'un capteur
-        - [] Lecture des trois capteurs
-        - [] Ajustement du prototype
-        - [] Test        
+        - [X] Recherche fonctionnement suiveur de ligne
+        - [X] Lecture d'un capteur
+        - [X] Lecture des trois capteurs
+        - [X] Ajustement du prototype
+        - [X] Test        
     endgroup
 
     group Capteur d'obstacle #Arthur
         2025-02-20/2025-03-10: Capteur d'obstacle #Arthur
-        - [] Prise en main
-        - [] Création de fonctions
-        - [] Gestion fonctions avec données extérieurs
-        - [] Test
+        - [X] Prise en main
+        - [X] Création de fonctions
+        - [X] Gestion fonctions avec données extérieurs
+        - [X] Test
     endgroup
 
     group Carte MP3 + haut parleur #Seb
         2025-02-20/2025-03-10: Carte MP3 + haut parleur #Seb
-        - [] Lecture datasheet
-        - [] Recherche librairie existante
-        - [] Test de fonction
-        - [] Code
+        - [X] Lecture datasheet
+        - [X] Recherche librairie existante
+        - [X] Test de fonction
+        - [X] Code
+    endgroup
+
+    group Bluethoot #Seb
+        2025-03-10/2025-03-16: Bluethoot #Seb
+        - [X] Lecture datasheet
+        - [X] Recherche librairie existante
+        - [X] Test de fonction
+        - [X] Code
     endgroup
 
     group Modèle 3D bras #All
         2025-03/2025-04: Modèle 3D bras #All
-        - []
+        - [X]
     endgroup
 
 endgroup
 
 group Assemblage #All
     2025-03-10/2025-03-24: Ajout Suiveur de ligne + Driver #All
-    - []
+    - [X]
     2025-03-24/2025-04-07: Ajout capteur obstacle #All
-    - []
+    - [X]
     2025-04-07/2025-04-14: Ajout servo moteur + bras #All
-    - [] 
+    - [X] 
     2025-04-14/2025-04-21: Ajout module MP3 #All
-    - [] 
-
+    - [X] 
+    2025-04-21/2025-04-28: Ajout module Bluethoot #All
+    - [X]
 endgroup
